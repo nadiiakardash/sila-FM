@@ -19167,7 +19167,7 @@ if (jquery__WEBPACK_IMPORTED_MODULE_0___default()('*').is('.index_page')) {
     var scrollFunction = function scrollFunction() {
       if (document.documentElement.scrollTop > 1050) {
         document.getElementById("menufixed").style.position = "fixed";
-        document.getElementById("menufixed").style.marginTop = "-990px";
+        document.getElementById("menufixed").style.marginTop = "-960px";
         var mql = window.matchMedia('all and (min-height: 400px)');
 
         if (mql.matches) {
@@ -19177,7 +19177,7 @@ if (jquery__WEBPACK_IMPORTED_MODULE_0___default()('*').is('.index_page')) {
         var mql = window.matchMedia('all and (min-height: 600px)');
 
         if (mql.matches) {
-          document.getElementById("menufixed").style.marginTop = "-1060px";
+          document.getElementById("menufixed").style.marginTop = "-1000px";
         }
 
         var mql = window.matchMedia('all and (max-height: 667px)');
@@ -22494,8 +22494,8 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\vvn09\Desktop\Nadia projects\Dental studio\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\vvn09\Desktop\Nadia projects\Dental studio\src\sass\app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! C:\Users\vvn09\Desktop\Nadia projects\sila-FM\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\vvn09\Desktop\Nadia projects\sila-FM\src\sass\app.scss */"./src/sass/app.scss");
 
 
 /***/ })

@@ -516,14 +516,14 @@ $(document).ready(function () {
   function scrollFunction() {
     if (document.documentElement.scrollTop > 1050) {
       document.getElementById("menufixed").style.position = "fixed";
-      document.getElementById("menufixed").style.marginTop = "-990px";
+      document.getElementById("menufixed").style.marginTop = "-960px";
       var mql = window.matchMedia('all and (min-height: 400px)');
       if (mql.matches) {
         document.getElementById("menufixed").style.marginTop = "-850px";
       }
       var mql = window.matchMedia('all and (min-height: 600px)');
       if (mql.matches) {
-        document.getElementById("menufixed").style.marginTop = "-1060px";
+        document.getElementById("menufixed").style.marginTop = "-1000px";
       }
       var mql = window.matchMedia('all and (max-height: 667px)');
       if (mql.matches) {
